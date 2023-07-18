@@ -5,7 +5,6 @@ public class CalculatorServiceImpl implements CalculatorService {
     public String hello() {
         return "<b>Добро пожаловать в калькулятор</b>";
     }
-
     public String sum(int num1, int num2) {
         int result = num1 + num2;
         return num1 + " + " + num2 + " = " + result;

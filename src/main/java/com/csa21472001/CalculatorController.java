@@ -4,7 +4,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/calculator")
 public class CalculatorController {
     private final CalculatorService cService;
-
     public CalculatorController(CalculatorService cService) {
         this.cService = cService;
     }
